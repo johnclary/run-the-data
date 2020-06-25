@@ -97,12 +97,11 @@ export default function About() {
               </a>
               .
             </p>
-            <p>
-              <small>
-                *Site header icons sourced from Yu Luck, MRK, and Gajah Mada
+            <p className="font-weight-bold">Acknowledgements</p>
+            <p> 
+                Favicon and banner icons courtesy from Yu Luck, MRK, and Gajah Mada
                 Studio via{" "}
-                <a href="https://thenounproject.com/">the noun project</a>*
-              </small>
+                <a href="https://thenounproject.com/">the noun project</a>.
             </p>
           </Col>
           <Col></Col>

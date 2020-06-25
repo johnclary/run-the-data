@@ -11,7 +11,7 @@ export default function Footer(props) {
             Created By{" "}
             <a href="https://github.com/johnclary/">John Clary</a>
             {" "}|{" "}Copyright (C) 2020{" "}|{" "}
-            <a href="">MIT License</a>
+            <a href="https://github.com/johnclary/run-the-data/blob/master/LICENSE">MIT License</a>
           </small>
         </p>
       </Col>

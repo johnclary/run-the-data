@@ -23,6 +23,32 @@ import {
 
 import { TiVendorMicrosoft } from "react-icons/ti";
 
+export const COLORS = [
+  "#6b7b58",
+  "#275b52",
+  "#7dbf9b",
+  "#453e7d",
+  "#d592eb",
+  "#82185f",
+  "#e03cc2",
+  "#621da6",
+  "#6e9df7",
+  "#2da0a1",
+  "#137575",
+  "#2aa63a",
+  "#683d0d",
+  "#c1877c",
+  "#982a25",
+  "#f7767d",
+  "#7e9b3d",
+  "#fe8f06",
+  "#9e7d6a",
+  "#d29b38",
+  "#ff1c5d",
+  "#36f459",
+  "#9f04fc",
+];
+
 export const SPEND_CATEGORIES = [
   {
     name: "guns",

@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import PageHeader from "./PageHeader";
 import Footer from "./Footer";
 import CategoryRow from "./CategoryRow";
+import Combined from "./Combined";
 import { SPEND_CATEGORIES } from "./Categories";
 import * as DATA from "../data/category_totals_by_year.json";
 import Nav from "./Nav";
@@ -20,10 +21,11 @@ const filterDataByCategory = (data, category) => {
 export default function Home() {
   const [explorerCategory, setExplorerCategory] = React.useState(null);
   return (
-    <React.Fragment>
+    <>
     <Container className="min-vh-100">
       <Nav links={[{ href: "/about", name: "About" }]} />
       <PageHeader />
+      <Combined data={DATA.default.rows} categories={SPEND_CATEGORIES} />
       {SPEND_CATEGORIES.map((category) => (
         <CategoryRow
           key={category.name}
@@ -34,7 +36,7 @@ export default function Home() {
         />
       ))}
     </Container>
-    <Footer/>      
-    </React.Fragment>
+    <Footer/>
+    </>
   );
 }

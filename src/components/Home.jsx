@@ -21,20 +21,20 @@ export default function Home() {
   const [explorerCategory, setExplorerCategory] = React.useState(null);
   return (
     <React.Fragment>
-    <Container className="min-vh-100">
-      <Nav links={[{ href: "/about", name: "About" }]} />
-      <PageHeader />
-      {SPEND_CATEGORIES.map((category) => (
-        <CategoryRow
-          key={category.name}
-          data={filterDataByCategory(DATA.rows, category.name)}
-          category={category}
-          explorerCategory={explorerCategory}
-          setExplorerCategory={setExplorerCategory}
-        />
-      ))}
-    </Container>
-    <Footer/>      
+      <Container className="min-vh-100">
+        <Nav links={[{ href: "/about", name: "About" }]} />
+        <PageHeader />
+        {SPEND_CATEGORIES.map((category) => (
+          <CategoryRow
+            key={category.name}
+            data={filterDataByCategory(DATA.rows, category.name)}
+            category={category}
+            explorerCategory={explorerCategory}
+            setExplorerCategory={setExplorerCategory}
+          />
+        ))}
+        <Footer />
+      </Container>
     </React.Fragment>
   );
 }

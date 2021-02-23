@@ -66,7 +66,7 @@ def write(rows, fname):
       fout.write(json.dumps(rows))
 
 def write_totals_by_year(rows):
-  fname = f"{OUT_DIR}/totals_by_year.json"
+  fname = f"{OUT_DIR}/category_totals_by_year.json"
   # make jsx easier by assigning the list to a key
   rows = {"rows": rows}
   write(rows, fname)

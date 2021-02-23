@@ -98,16 +98,16 @@ export default function About() {
               .
             </p>
             <p className="font-weight-bold">Acknowledgements</p>
-            <p> 
-                Favicon and banner icons courtesy from Yu Luck, MRK, and Gajah Mada
-                Studio via{" "}
-                <a href="https://thenounproject.com/">the noun project</a>.
+            <p>
+              Favicon and banner icons courtesy from Yu Luck, MRK, and Gajah
+              Mada Studio via{" "}
+              <a href="https://thenounproject.com/">the noun project</a>.
             </p>
           </Col>
           <Col></Col>
         </Row>
+        <Footer />
       </Container>
-      <Footer />
     </React.Fragment>
   );
 }

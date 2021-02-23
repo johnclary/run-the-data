@@ -35,9 +35,7 @@ function yDomain(data) {
   return [yMin, yMax];
 }
 
-function MakeChart(props) {
-  const data = props.data;
-
+function MakeChart({ data }) {
   return (
     <ResponsiveContainer width="100%" height={100}>
       <LineChart width={500} height={300} data={data}>
@@ -61,6 +59,6 @@ function MakeChart(props) {
   );
 }
 
-export default function CategoryByYear(props) {
-  return <MakeChart data={props.data} />;
+export default function CategoryByYear({ data }) {
+  return <MakeChart data={data} />;
 }

@@ -27,14 +27,17 @@ export default function PageHeader() {
               <path d="M9.73523,26.49457c8.06506,6.12347,24.51752,9.35626,40.26465,9.35626,15.74682,0,32.1994-3.23279,40.26459-9.35626V39.29633c0,6.08422-17.21973,12.88909-40.26459,12.88909S9.73523,45.38055,9.73523,39.29633Zm0,34.2091c0,6.08417,17.21979,12.889,40.26465,12.889s40.26459-6.80487,40.26459-12.889V47.90155c-8.06519,6.12329-24.51777,9.35608-40.26459,9.35608-15.74713,0-32.19959-3.23279-40.26465-9.35608Zm0,21.40729C9.73523,88.19513,26.955,95,49.99988,95s40.26459-6.80487,40.26459-12.889V69.30884c-8.06519,6.12329-24.51777,9.35608-40.26459,9.35608-15.74713,0-32.19959-3.23279-40.26465-9.35608ZM90.26447,17.889C90.26447,11.80487,73.04474,5,49.99988,5S9.73523,11.80487,9.73523,17.889c0,6.08471,17.21979,12.88959,40.26465,12.88959S90.26447,23.97375,90.26447,17.889Z" />
             </svg>
           </h1>
-
-          <p>
-            Visualizing Austin Police Department expenditures from{" "}
-            <a href="https://data.austintexas.gov/Budget-and-Finance/Austin-Finance-Online-eCheckbook/8c6z-qnmj">
-              open financial data
-            </a>
-          </p>
-        </Link> 
+        </Link>
+        <p>
+          Visualizing Austin Police Department expenditures from{" "}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://data.austintexas.gov/Budget-and-Finance/Austin-Finance-Online-eCheckbook/8c6z-qnmj"
+          >
+            open financial data
+          </a>
+        </p>
       </Col>
     </Row>
   );

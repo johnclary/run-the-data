@@ -17,7 +17,7 @@ export default function About() {
             <div>
               <p>
                 Run the Data uses{" "}
-                <a href="https://data.austintexas.gov/Budget-and-Finance/Austin-Finance-Online-eCheckbook/8c6z-qnmj">
+                <a target="_blank" rel="noopener noreferrer" href="https://data.austintexas.gov/Budget-and-Finance/Austin-Finance-Online-eCheckbook/8c6z-qnmj">
                   open financial data
                 </a>{" "}
                 to provide insight into the way the City of Austin Police
@@ -27,7 +27,7 @@ export default function About() {
                 {" "}
                 You can view detailed information about the data in this
                 project's{" "}
-                <a href="https://github.com/johnclary/run-the-data">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/johnclary/run-the-data">
                   Github Repository
                 </a>
                 .
@@ -38,26 +38,26 @@ export default function About() {
             </p>
             <ul>
               <li>
-                Attend an <a href="https://austindsa.org/">Austin DSA</a>{" "}
+                Attend an <a target="_blank" rel="noopener noreferrer" href="https://austindsa.org/">Austin DSA</a>{" "}
                 meeting
               </li>
               <li>
                 Vote and volunteer for{" "}
-                <a href="https://www.joseforda.com/">Jose Garza</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.joseforda.com/">Jose Garza</a>
               </li>
               <li>
                 Support and follow the{" "}
-                <a href="https://austinjustice.org/">
+                <a target="_blank" rel="noopener noreferrer" href="https://austinjustice.org/">
                   Austin Justice Coalition
                 </a>
               </li>
               <li>
                 Support and follow{" "}
-                <a href="https://justliberty.org/">Just Liberty</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://justliberty.org/">Just Liberty</a>
               </li>
               <li>
                 Tell{" "}
-                <a href="https://www.austintexas.gov/government">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.austintexas.gov/government">
                   Mayor and City Council
                 </a>{" "}
                 that they should defund the Austin Police Department
@@ -90,9 +90,9 @@ export default function About() {
             <p className="font-weight-bold">I'd like to make a suggestion.</p>
             <p>
               Yes, please. DM me on{" "}
-              <a href="https://twitter.com/spatialaustin">Twitter</a> or open a
+              <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/spatialaustin">Twitter</a> or open a
               new{" "}
-              <a href="https://github.com/johnclary/run-the-data/issues">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/johnclary/run-the-data/issues">
                 issue
               </a>
               .
@@ -101,7 +101,7 @@ export default function About() {
             <p>
               Favicon and banner icons courtesy from Yu Luck, MRK, and Gajah
               Mada Studio via{" "}
-              <a href="https://thenounproject.com/">the noun project</a>.
+              <a target="_blank" rel="noopener noreferrer" href="https://thenounproject.com/">the noun project</a>.
             </p>
           </Col>
           <Col></Col>

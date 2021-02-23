@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
@@ -8,9 +9,9 @@ export default function Nav(props) {
       {props.links.map((l, i) => {
         return (
           <Col md={1} key={i}>
-            <a href={l.href} className="text-reset">
+            <Link to={l.href} alt={l.name} className="text-reset">
               <p className="text-right">{l.name}</p>
-            </a>
+            </Link>
           </Col>
         );
       })}

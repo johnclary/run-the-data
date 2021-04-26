@@ -34,6 +34,8 @@ def assign_cats(data, index=None, key=None):
     dscr = row.get("actg_ln_dscr")
     if dscr in index:
       row[key] = index[dscr]
+    else:
+      row[key] = "uncategorized"
   return data
 
 def get_years(first_year=2008):

@@ -126,4 +126,9 @@ export const SPEND_CATEGORIES = [
     title: "Huh?",
     icon: <FaRegQuestionCircle size="2em" />,
   },
+  {
+    name: "uncategorized",
+    title: "Uncategorized",
+    icon: <FaRegQuestionCircle size="2em" />,
+  },
 ];

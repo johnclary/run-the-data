@@ -5,7 +5,11 @@ import Col from "react-bootstrap/Col";
 
 const LINKS = [
   { href: "/", name: "home" },
-  { href: { pathname: "https://evictions.runthedata.io" }, name: "evictions" },
+  {
+    href: "https://evictions.runthedata.io",
+    name: "evictions",
+    external: true,
+  },
   { href: "/about", name: "about" },
 ];
 
@@ -15,9 +19,12 @@ export default function Nav() {
       {LINKS.map((l, i) => {
         return (
           <Col md={1} key={i}>
-            <Link to={l.href} alt={l.name}>
-              <p className="text-right">{l.name}</p>
-            </Link>
+            {l.external && <a href={l.href}>{l.name}</a>}
+            {!l.external && (
+              <Link to={l.href} alt={l.name}>
+                <p className="text-right">{l.name}</p>
+              </Link>
+            )}
           </Col>
         );
       })}

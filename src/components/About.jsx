@@ -9,12 +9,7 @@ export default function About() {
   return (
     <React.Fragment>
       <Container>
-        <Nav
-          links={[
-            { href: "/", name: "home" },
-            { href: "https://evictions.runthedata.io", name: "evictions" }
-          ]}
-        />
+        <Nav />
         <Row>
           <Col></Col>
           <Col lg={8}>

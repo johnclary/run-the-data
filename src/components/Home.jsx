@@ -22,12 +22,7 @@ export default function Home() {
   return (
     <React.Fragment>
       <Container className="min-vh-100">
-        <Nav
-          links={[
-            { href: "https://evictions.runthedata.io", name: "evictions" },
-            { href: "/about", name: "about" },
-          ]}
-        />
+        <Nav />
         <PageHeader />
         {SPEND_CATEGORIES.map((category) => (
           <CategoryRow

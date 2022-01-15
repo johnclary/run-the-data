@@ -9,7 +9,7 @@ export default function Nav(props) {
       {props.links.map((l, i) => {
         return (
           <Col md={1} key={i}>
-            <Link to={l.href} alt={l.name} className="text-reset">
+            <Link to={l.href} alt={l.name}>
               <p className="text-right">{l.name}</p>
             </Link>
           </Col>

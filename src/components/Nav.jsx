@@ -5,13 +5,13 @@ import Col from "react-bootstrap/Col";
 
 const LINKS = [
   { href: "/", name: "home" },
-  { href: "https://evictions.runthedata.io", name: "evictions" },
+  { href: { pathname: "https://evictions.runthedata.io" }, name: "evictions" },
   { href: "/about", name: "about" },
 ];
 
 export default function Nav() {
   return (
-    <Row className="justify-content-end">
+    <Row className="my-3 justify-content-end">
       {LINKS.map((l, i) => {
         return (
           <Col md={1} key={i}>
